@@ -40,5 +40,4 @@ public class LRUCache<K, V> extends AbstractCache<K, V, BaseNode<K, V>> {
 
         MapStorage.put(key, new BaseNode<>(key, value));
     }
-
 }
